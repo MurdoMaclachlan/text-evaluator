@@ -1,0 +1,24 @@
+==NOTES==
+>>Old versions of this file are not saved. Once a version is implemented, the file is wiped to the basic skeleton to allow the 
+development of the next version to begin.
+>>To aid in the planning for version 3.0, a github will be set up.
+
+==PRIORITY LEVELS==
+>>1: Essential
+>>2: Highly Important
+>>3: Important
+>>4: Moderate
+>>5: Vanity
+
+==PRIORITY 1 FEATURES==
+>>Add a system that allows users to save personal values to an account they create. This will require an encryption system to hide 
+their password, and a folder to contain each users' unique text files.
+
+==PRIORITY 2 FEATURES==
+
+==PRIORITY 3 FEATURES==
+
+==PRIORITY 4 FEATURES==
+
+==PRIORITY 5 FEATURES==
+>>Add a description for the repl.
