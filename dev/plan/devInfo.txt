@@ -1,0 +1,2 @@
+>>Old versions of the development plan files are not saved. Once a version is implemented, the files are wiped to the basic
+skeleton to allow the development of the next version to begin.
