@@ -1,9 +1,3 @@
-'''
-  I originally wrote this program in Python 2.7, on an older account which I no longer use. I like the program though, so I ported it to Python 3 and brought it to this account. Enjoy.
-
-  Development for version 3.0 has begun. Coming soon.
-'''
-
 from termcolor import cprint
 import replit
 import time
