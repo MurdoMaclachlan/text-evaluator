@@ -1,10 +1,9 @@
-==NOTES==
->>Old versions of this file are not saved. Once a version is implemented, the file is wiped to the basic skeleton to allow the development of the next version to begin.
+=FEATURE 1.1==
+>>Add a system that allows users to save personal values to an account they create. This will require an encryption system to hide 
+their password, and a folder to contain each users' unique text files.
 
-==FEATURE 1.1==
->>Add a system that allows users to save personal values to an account they create. This will require an encryption system to hide their password, and a folder to contain each users' unique text files.
-
->This will require the addition of a "user" folder. Each user that creates a new account will receive their own user folder (e.g., user "xXEdgeLord200Xx" will get the directory "user/xxedgelord200xx").
+>This will require the addition of a "user" folder. Each user that creates a new account will receive their own user folder (e.g., 
+user "xXEdgeLord200Xx" will get the directory "user/xxedgelord200xx").
 >This will require the following code:
     os.mkdir(dirName)
         print("Account ",dirName," created.") 
@@ -24,7 +23,9 @@
 
 >This system will require a complete rework of the UI.
 
->The users must be capable of creating their accounts, as well as deleting them. Upon the start of the deletion process, a user must re-enter their login details. They will then be asked to confirm that they wish to delete their account. Account deletion is permenant.
+>The users must be capable of creating their accounts, as well as deleting them. Upon the start of the deletion process, a user 
+must re-enter their login details. They will then be asked to confirm that they wish to delete their account. Account deletion is 
+permenant.
 >The following code will be implemented to delete users' accounts.
     os.remove()
     os.rmdir()
