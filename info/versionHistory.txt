@@ -6,7 +6,8 @@ A "*" indicates a bug has been detected but not fixed.
 
 (Known bugs:
   -Sometimes stuff doesn't get printed when it should. We think it's a repl thing.
-  -The pastTexts.txt document only updates when the repl is saved or when the program runs again. We know for a fact it's repl thing.)
+  -The pastTexts.txt document only updates when the repl is saved or when the program runs again. We know for a fact it's repl 
+  thing.)
 
 Version 2.3.2.1 Update Notes [22/02/19]:
   +Added the "plannedUpdates.txt" file to record planned changes and updates to the program.
@@ -19,7 +20,8 @@ Version 2.3.1 Update Notes [10/12/18]:
   =Fixed an issue where the writing program didn't write. We used words.
 
 Version 2.3 Update Notes [20/11/18]:
-  ~Incorporated the read into the write so instead of writing it can read, so long as there's something TO read, saving time on the writing, unless there's nothing to read in which case it has to write rather than read. Sounds about right.
+  ~Incorporated the read into the write so instead of writing it can read, so long as there's something TO read, saving time on 
+  the writing, unless there's nothing to read in which case it has to write rather than read. Sounds about right.
   =Fixed up the input validation. It now knows that invalid things must be changed. You will be upgraded.
 
 Version 2.2.2 Update Notes [17/11/18]:
