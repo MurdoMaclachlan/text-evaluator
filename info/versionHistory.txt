@@ -1,0 +1,49 @@
+A "+" indicates something has been added.
+A "-" indicates something has been removed.
+A "~" indicates something has been edited.
+A "=" indicates a bug fix.
+A "*" indicates a bug has been detected but not fixed.
+
+(Known bugs:
+  -Sometimes stuff doesn't get printed when it should. We think it's a repl thing.
+  -The pastTexts.txt document only updates when the repl is saved or when the program runs again. We know for a fact it's repl thing.)
+
+Version 2.3.2.1 Update Notes [22/02/19]:
+  +Added the "plannedUpdates.txt" file to record planned changes and updates to the program.
+
+Version 2.3.2 Update Notes [10/12/18]:
+  =Fixed an issue where the input validation wouldn't work. We re-sent the validation e-mail.
+
+Version 2.3.1 Update Notes [10/12/18]:
+  ~Made the code easier to read. We used words.
+  =Fixed an issue where the writing program didn't write. We used words.
+
+Version 2.3 Update Notes [20/11/18]:
+  ~Incorporated the read into the write so instead of writing it can read, so long as there's something TO read, saving time on the writing, unless there's nothing to read in which case it has to write rather than read. Sounds about right.
+  =Fixed up the input validation. It now knows that invalid things must be changed. You will be upgraded.
+
+Version 2.2.2 Update Notes [17/11/18]:
+  ~Made the notes in the versionHistory.txt file easier on the eyes. They're now dented.
+
+Version 2.2.1 Update Notes [13/11/18]:
+  ~Got some snazzy new paint for our user interface. Shiny.
+  =Fixed file reading script. It learnt to read.
+  =Now you can return to the main menu. We signposted the doors.
+
+Version 2.2 Update Notes [30/10/18]:
+  +Added a main menu and a thing that makes sure your answers don't break stuff.
+  +Added something that reads.
+  ~Moved version history to the versionHistory.txt file. Now it has a cozy little fire to warm its foots by.
+  *File reading script doesn't work. We forgot to teach it read.
+  *Return to main menu option doesn't work. Maybe the doors need signposted.
+
+Version 2.1 Update Notes [23/10/18]:
+  ~Improved file writing script. Its handwriting is now neater.
+
+Version 2.0 Update Notes [05/10/18]:
+  +Added a script to record all past texts and their values. We're watching you, and what you write. Please do not swear.
+  ~Improved functions; more concise and easier to read. Just in case you want to nick our work.
+  ~Reduced number of lines; reduces lag. Now you can have everything work even better for you, because you're spoiled.
+
+Version 1.0 Update Notes [In The Beginning, Exact Date Unknown]:
+  +Initial program created. Genesis 1:1.
