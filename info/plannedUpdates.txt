@@ -2,9 +2,11 @@ A "~" indicates the update/feature is still planned.
 A "+" indicates the update/feature has been implemented.
 A "-" indicates the update/feature has been scrapped.
 
-~Add a system that allows users to save personal values to an account they create. This will require an encryption system to hide their password, and a folder to contain each users' unique text files. [Planned for Version 3.0]
+~Add a system that allows users to save personal values to an account they create. This will require an encryption system to hide 
+their password, and a folder to contain each users' unique text files. [Planned for Version 3.0]
 
-+Add a system that allows the calculator to check for the presence of a previously calculated value, so it can be quickly retrieved without the need for a recalculation. [Added on 20/11/18, Version 2.3]
++Add a system that allows the calculator to check for the presence of a previously calculated value, so it can be quickly retrieved 
+without the need for a recalculation. [Added on 20/11/18, Version 2.3]
 
 +Add a main menu to allow you to choose whether to calculate a new value or search for an old one. [Added on 30/10/18, Version 2.2]
 
