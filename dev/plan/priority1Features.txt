@@ -1,0 +1,30 @@
+==NOTES==
+>>Old versions of this file are not saved. Once a version is implemented, the file is wiped to the basic skeleton to allow the development of the next version to begin.
+
+==FEATURE 1.1==
+>>Add a system that allows users to save personal values to an account they create. This will require an encryption system to hide their password, and a folder to contain each users' unique text files.
+
+>This will require the addition of a "user" folder. Each user that creates a new account will receive their own user folder (e.g., user "xXEdgeLord200Xx" will get the directory "user/xxedgelord200xx").
+>This will require the following code:
+    os.mkdir(dirName)
+        print("Account ",dirName," created.") 
+    except FileExistsError:
+        print("The username ",dirName,"is already taken. Please choose another.")
+
+>Encryption will be required for the storage of sensitive user data (e.g., passwords).
+>This will require the following code:
+    from cryptography.fernet import Fernet
+    key = Fernet.generate_key()
+    cipher_suite = Fernet(key)
+    encryptedText = cipher_suite.encrypt(b"message")
+>Decryption will require the following code:
+    plainText = cipher_suite.decrypt(cipher_text)
+
+>Check to see whether terms of service are legally required despite not being an organisation. UK law is strange.
+
+>This system will require a complete rework of the UI.
+
+>The users must be capable of creating their accounts, as well as deleting them. Upon the start of the deletion process, a user must re-enter their login details. They will then be asked to confirm that they wish to delete their account. Account deletion is permenant.
+>The following code will be implemented to delete users' accounts.
+    os.remove()
+    os.rmdir()
